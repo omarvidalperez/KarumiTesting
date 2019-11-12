@@ -1,5 +1,4 @@
-
-language: objetive-c
-osx_image: xcode11.0
-xcode_project: Karumi Test.xcodeproj
+language: objective-c
+xcode_project: Karumi Test.xcodeproj # path to your xcodeproj folder
 xcode_scheme: Karumi Test
+xcode_destination: platform=iOS Simulator,OS=10.1,name=iPad Pro (9.7-inch)

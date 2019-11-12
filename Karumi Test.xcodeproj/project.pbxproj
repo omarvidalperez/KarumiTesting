@@ -15,6 +15,12 @@
 		EFF467D0237AB2D4006FA185 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFF467CE237AB2D4006FA185 /* LaunchScreen.storyboard */; };
 		EFF467DB237AB2D5006FA185 /* Karumi_TestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFF467DA237AB2D5006FA185 /* Karumi_TestTests.swift */; };
 		EFF467E6237AB2D5006FA185 /* Karumi_TestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFF467E5237AB2D5006FA185 /* Karumi_TestUITests.swift */; };
+		EFF467F4237AC983006FA185 /* StringCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFF467F3237AC983006FA185 /* StringCalculator.swift */; };
+		EFF467FA237ACD2A006FA185 /* StringCalculatorTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFF467F9237ACD2A006FA185 /* StringCalculatorTest.swift */; };
+		EFF467FE237AF9D3006FA185 /* SessionInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFF467FD237AF9D3006FA185 /* SessionInteractor.swift */; };
+		EFF46802237B075B006FA185 /* SystemClock.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFF46801237B075B006FA185 /* SystemClock.swift */; };
+		EFF46804237B0929006FA185 /* Presenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFF46803237B0929006FA185 /* Presenter.swift */; };
+		EFF46806237B0ED4006FA185 /* PresenterTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFF46805237B0ED4006FA185 /* PresenterTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +55,12 @@
 		EFF467E1237AB2D5006FA185 /* Karumi TestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Karumi TestUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFF467E5237AB2D5006FA185 /* Karumi_TestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Karumi_TestUITests.swift; sourceTree = "<group>"; };
 		EFF467E7237AB2D5006FA185 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFF467F3237AC983006FA185 /* StringCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringCalculator.swift; sourceTree = "<group>"; };
+		EFF467F9237ACD2A006FA185 /* StringCalculatorTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringCalculatorTest.swift; sourceTree = "<group>"; };
+		EFF467FD237AF9D3006FA185 /* SessionInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionInteractor.swift; sourceTree = "<group>"; };
+		EFF46801237B075B006FA185 /* SystemClock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemClock.swift; sourceTree = "<group>"; };
+		EFF46803237B0929006FA185 /* Presenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Presenter.swift; sourceTree = "<group>"; };
+		EFF46805237B0ED4006FA185 /* PresenterTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresenterTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +114,10 @@
 				EFF467C3237AB2D0006FA185 /* AppDelegate.swift */,
 				EFF467C5237AB2D0006FA185 /* SceneDelegate.swift */,
 				EFF467C7237AB2D0006FA185 /* ViewController.swift */,
+				EFF46803237B0929006FA185 /* Presenter.swift */,
+				EFF467FD237AF9D3006FA185 /* SessionInteractor.swift */,
+				EFF46801237B075B006FA185 /* SystemClock.swift */,
+				EFF467F3237AC983006FA185 /* StringCalculator.swift */,
 				EFF467C9237AB2D0006FA185 /* Main.storyboard */,
 				EFF467CC237AB2D4006FA185 /* Assets.xcassets */,
 				EFF467CE237AB2D4006FA185 /* LaunchScreen.storyboard */,
@@ -114,6 +130,8 @@
 			isa = PBXGroup;
 			children = (
 				EFF467DA237AB2D5006FA185 /* Karumi_TestTests.swift */,
+				EFF467F9237ACD2A006FA185 /* StringCalculatorTest.swift */,
+				EFF46805237B0ED4006FA185 /* PresenterTest.swift */,
 				EFF467DC237AB2D5006FA185 /* Info.plist */,
 			);
 			path = "Karumi TestTests";
@@ -259,8 +277,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EFF467FE237AF9D3006FA185 /* SessionInteractor.swift in Sources */,
+				EFF46802237B075B006FA185 /* SystemClock.swift in Sources */,
+				EFF46804237B0929006FA185 /* Presenter.swift in Sources */,
 				EFF467C8237AB2D0006FA185 /* ViewController.swift in Sources */,
 				EFF467C4237AB2D0006FA185 /* AppDelegate.swift in Sources */,
+				EFF467F4237AC983006FA185 /* StringCalculator.swift in Sources */,
 				EFF467C6237AB2D0006FA185 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -269,7 +291,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EFF467FA237ACD2A006FA185 /* StringCalculatorTest.swift in Sources */,
 				EFF467DB237AB2D5006FA185 /* Karumi_TestTests.swift in Sources */,
+				EFF46806237B0ED4006FA185 /* PresenterTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,4 +1,6 @@
 language: objective-c
-xcode_project: Karumi Test.xcodeproj # path to your xcodeproj folder
-xcode_scheme: Karumi Test
-xcode_destination: platform=iOS Simulator,OS=10.1,name=iPad Pro (9.7-inch)
+osx_image: xcode11.2
+xcode_project: CursoQA.xcodeproj
+xcode_scheme: CursoQA
+xcode_sdk: iphonesimulator13.0
+script: xcodebuild -project CursoQA.xcodeproj -scheme CursoQA -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO

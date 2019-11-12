@@ -1,4 +1,9 @@
+
 language: swift
-xcode_project: Karumi Test.xcodeproj # path to your xcodeproj folder
-xcode_scheme: Karumi_TestTests
-xcode_destination: platform=iOS Simulator,OS=10.1,name=iPad Pro (9.7-inch)
+osx_image: xcode11.0
+xcode_project: Karumi Test.xcodeproj
+xcode_scheme: Karumi Test
+xcode_sdk: iphonesimulator13.0
+script: xcodebuild -project Karumi Test.xcodeproj -scheme Karumi Test -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO
+notifications:
+ email: false

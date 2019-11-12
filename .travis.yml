@@ -1,6 +1,4 @@
 language: objective-c
 osx_image: xcode11.2
-xcode_project: CursoQA.xcodeproj
-xcode_scheme: CursoQA
 xcode_sdk: iphonesimulator13.0
-script: xcodebuild -project CursoQA.xcodeproj -scheme CursoQA -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO
+script: xcodebuild -project Karumi\ Test.xcodeproj -scheme Karumi\ Test -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO

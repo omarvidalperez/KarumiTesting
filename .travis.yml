@@ -1,9 +1,9 @@
 
 language: objetive-c
 osx_image: xcode11.0
-xcode_project: Karumi Test.xcodeproj
-xcode_scheme: Karumi TestTests
+xcode_project: Karumi\ Test.xcodeproj
+xcode_scheme: Karumi\ Test
 xcode_sdk: iphonesimulator13.0
-script: xcodebuild -project Karumi Test.xcodeproj -scheme Karumi Test -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO
+script: xcodebuild -project Karumi\ Test.xcodeproj -scheme Karumi\ Test -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO
 notifications:
  email: false

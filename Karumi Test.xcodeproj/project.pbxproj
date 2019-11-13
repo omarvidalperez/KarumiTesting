@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EF2D050A237C1D110042A627 /* CounterStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF2D0509237C1D110042A627 /* CounterStorage.swift */; };
+		EF2D050C237C1EDB0042A627 /* CounterStorageTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF2D050B237C1EDB0042A627 /* CounterStorageTest.swift */; };
+		EF2D050E237C26510042A627 /* MagicCounter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF2D050D237C26510042A627 /* MagicCounter.swift */; };
+		EF2D0510237C29280042A627 /* RandomNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF2D050F237C29280042A627 /* RandomNumber.swift */; };
+		EF2D0512237C29F80042A627 /* MagicCounterTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF2D0511237C29F80042A627 /* MagicCounterTest.swift */; };
 		EFF467C4237AB2D0006FA185 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFF467C3237AB2D0006FA185 /* AppDelegate.swift */; };
 		EFF467C6237AB2D0006FA185 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFF467C5237AB2D0006FA185 /* SceneDelegate.swift */; };
 		EFF467C8237AB2D0006FA185 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFF467C7237AB2D0006FA185 /* ViewController.swift */; };
@@ -41,6 +46,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EF2D0509237C1D110042A627 /* CounterStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterStorage.swift; sourceTree = "<group>"; };
+		EF2D050B237C1EDB0042A627 /* CounterStorageTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterStorageTest.swift; sourceTree = "<group>"; };
+		EF2D050D237C26510042A627 /* MagicCounter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagicCounter.swift; sourceTree = "<group>"; };
+		EF2D050F237C29280042A627 /* RandomNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomNumber.swift; sourceTree = "<group>"; };
+		EF2D0511237C29F80042A627 /* MagicCounterTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagicCounterTest.swift; sourceTree = "<group>"; };
 		EFF467C0237AB2D0006FA185 /* Karumi Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Karumi Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFF467C3237AB2D0006FA185 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EFF467C5237AB2D0006FA185 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -88,6 +98,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EF2D0513237C2CBC0042A627 /* MagicCounter */ = {
+			isa = PBXGroup;
+			children = (
+				EF2D050F237C29280042A627 /* RandomNumber.swift */,
+				EF2D050D237C26510042A627 /* MagicCounter.swift */,
+			);
+			path = MagicCounter;
+			sourceTree = "<group>";
+		};
+		EF2D0514237C2CCF0042A627 /* Counter */ = {
+			isa = PBXGroup;
+			children = (
+				EF2D0513237C2CBC0042A627 /* MagicCounter */,
+				EF2D0509237C1D110042A627 /* CounterStorage.swift */,
+			);
+			path = Counter;
+			sourceTree = "<group>";
+		};
 		EFF467B7237AB2D0006FA185 = {
 			isa = PBXGroup;
 			children = (
@@ -111,6 +139,7 @@
 		EFF467C2237AB2D0006FA185 /* Karumi Test */ = {
 			isa = PBXGroup;
 			children = (
+				EF2D0514237C2CCF0042A627 /* Counter */,
 				EFF467C3237AB2D0006FA185 /* AppDelegate.swift */,
 				EFF467C5237AB2D0006FA185 /* SceneDelegate.swift */,
 				EFF467C7237AB2D0006FA185 /* ViewController.swift */,
@@ -130,6 +159,8 @@
 			isa = PBXGroup;
 			children = (
 				EFF467DA237AB2D5006FA185 /* Karumi_TestTests.swift */,
+				EF2D050B237C1EDB0042A627 /* CounterStorageTest.swift */,
+				EF2D0511237C29F80042A627 /* MagicCounterTest.swift */,
 				EFF467F9237ACD2A006FA185 /* StringCalculatorTest.swift */,
 				EFF46805237B0ED4006FA185 /* PresenterTest.swift */,
 				EFF467DC237AB2D5006FA185 /* Info.plist */,
@@ -277,11 +308,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF2D050E237C26510042A627 /* MagicCounter.swift in Sources */,
 				EFF467FE237AF9D3006FA185 /* SessionInteractor.swift in Sources */,
 				EFF46802237B075B006FA185 /* SystemClock.swift in Sources */,
 				EFF46804237B0929006FA185 /* Presenter.swift in Sources */,
 				EFF467C8237AB2D0006FA185 /* ViewController.swift in Sources */,
+				EF2D050A237C1D110042A627 /* CounterStorage.swift in Sources */,
 				EFF467C4237AB2D0006FA185 /* AppDelegate.swift in Sources */,
+				EF2D0510237C29280042A627 /* RandomNumber.swift in Sources */,
 				EFF467F4237AC983006FA185 /* StringCalculator.swift in Sources */,
 				EFF467C6237AB2D0006FA185 /* SceneDelegate.swift in Sources */,
 			);
@@ -291,7 +325,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF2D050C237C1EDB0042A627 /* CounterStorageTest.swift in Sources */,
 				EFF467FA237ACD2A006FA185 /* StringCalculatorTest.swift in Sources */,
+				EF2D0512237C29F80042A627 /* MagicCounterTest.swift in Sources */,
 				EFF467DB237AB2D5006FA185 /* Karumi_TestTests.swift in Sources */,
 				EFF46806237B0ED4006FA185 /* PresenterTest.swift in Sources */,
 			);
